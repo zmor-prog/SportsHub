@@ -1,0 +1,64 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: #454545;
+  justify-content: center;
+  background-color: rgba(237, 237, 237);
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: left;
+  color: #454545;
+}
+
+.header{
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+
+.headerBtn {
+  margin-top: -80px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  float:right;
+}
+
+.ReadPosts {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 30px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #18A558;
+  color:white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+@media screen  and (max-width: 768px){
+  .headerBtn {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    float:none;
+  }
+}
